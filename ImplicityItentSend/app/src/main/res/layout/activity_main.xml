@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="http://developer.android.com" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222831"
+        android:textColor="#FFFFFF"
+        android:onClick="openWebsite"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="OPEN WEBSITE"></Button>
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Golden Gate Bridge" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222831"
+        android:textColor="#FFFFFF"
+        android:onClick="openLocation"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="OPEN LOCATION"></Button>
+
+    <EditText
+        android:id="@+id/editTextShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Twas brilling and the slithy toves" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222831"
+        android:textColor="#FFFFFF"
+        android:onClick="ShareText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="SHARE THIS TEXT"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#4f8a8b"></Button>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
