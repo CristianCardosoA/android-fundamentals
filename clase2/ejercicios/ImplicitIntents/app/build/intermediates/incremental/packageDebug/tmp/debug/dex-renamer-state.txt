@@ -1,4 +1,0 @@
-#Mon Sep 21 13:44:19 CDT 2020
-base.0=/Users/developer/Documents/android-fundamentals/clase2/ejercicios/ImplicitIntents/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
